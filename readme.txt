@@ -6,17 +6,17 @@ Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: trunk
 
-Adds shortcode [catthumb] to embed a thumbnail image for a category.
+Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
 == Description ==
 
-**[catthumb id="_CategoryID_" link="true"]** will find the most recent post in the specified Category with a featured image and return the thumbnail for that image. If *link="true"* is specified, the image will link to the category specified.
+`[catthumb id="_CategoryID_" link="true"]` will find the most recent post in the specified Category with a featured image and return the thumbnail for that image. If *link="true"* is specified, the image will link to the category specified.
 
 == Installation ==
 
 1. Upload 'dirtysuds-category-thumbnail' to the '/wp-content/plugins/' directory
 2. Activate **DirtySuds - Category Thumbnail** through the 'Plugins' menu in WordPress
-3. In the page editor, add the shortcode **[catthumb id="_CategoryID_"]** where _CategoryID_ is category id number. This _must be a number, not the category slug or name_
+3. In the page editor, add the shortcode `[catthumb id="_CategoryID_"]` where _CategoryID_ is category id number. This _must be a number, not the category slug or name_
 
 
 == Frequently Asked Questions ==
