@@ -1,5 +1,5 @@
-=== DirtySuds - Category Thumbnail ===
-Contributors: pathawks
+=== Category Thumbnail ===
+Contributors: dirtysuds, pathawks
 Donate link: http://www.pathawks.com/p/wordpress-plugins.html
 Tags: plugins, wordpress, shortcode, category, thumbnail, image
 Requires at least: 3.0
@@ -10,7 +10,7 @@ Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
 == Description ==
 
-`[catthumb id="_CategoryID_" link="true"]` will find the most recent post in the specified Category with a featured image and return the thumbnail for that image. If *link="true"* is specified, the image will link to the category specified.
+`[catthumb id="CategoryID" link="true"]` will find the most recent post in the specified Category with a featured image and return the thumbnail for that image. If *link="true"* is specified, the image will link to the category specified.
 
 == Installation ==
 
