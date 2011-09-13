@@ -3,9 +3,9 @@
 Plugin Name: DirtySuds - Category Thumbnail
 Plugin URI: http://dirtysuds.com
 Description: Adds shortcode to embed a category thumbnail image link
-Author: Pat Hawks
+Author: Dirty Suds
 Version: 1.00.20110226
-Author URI: http://www.pathawks.com
+Author URI: http://blog.dirtysuds.com
 
 Updates:
 1.00.20110226 - First Version

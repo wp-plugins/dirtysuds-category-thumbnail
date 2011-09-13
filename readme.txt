@@ -3,7 +3,7 @@ Contributors: dirtysuds, pathawks
 Donate link: http://www.pathawks.com/p/wordpress-plugins.html
 Tags: plugins, wordpress, shortcode, category, thumbnail, image
 Requires at least: 3.0
-Tested up to: 3.1
+Tested up to: 3.2.1
 Stable tag: trunk
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
@@ -16,15 +16,23 @@ Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
 1. Upload 'dirtysuds-category-thumbnail' to the '/wp-content/plugins/' directory
 2. Activate **DirtySuds - Category Thumbnail** through the 'Plugins' menu in WordPress
-3. In the page editor, add the shortcode `[catthumb id="_CategoryID_"]` where _CategoryID_ is category id number. This _must be a number, not the category slug or name_
+3. In the page editor, add the shortcode `[catthumb id="CategoryID"]` where _CategoryID_ is category id number. This _must be a number, not the category slug or name_
 
 
 == Frequently Asked Questions ==
 
+= Can I use `catthumb` in a template? =
+
+Of course! The syntax is very similar to the shortcode syntax. Just add the following line to your template.
+
+	<?php dirtysuds_category_thumb(array('id'=>'CategoryID')); ?>
+
+You just need to replace *CategoryID* with the id number of the category.
+
 = I have an idea for a great way to improve this plugin =
 
 Great! I'd love to hear from you.
-catthumb@pathawks.com
+plugins@dirtysuds.com
 
 
 == Changelog ==
