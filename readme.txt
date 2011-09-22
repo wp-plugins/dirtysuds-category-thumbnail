@@ -1,7 +1,7 @@
 === Category Thumbnail ===
 Contributors: dirtysuds, pathawks
 Donate link: http://www.pathawks.com/p/wordpress-plugins.html
-Tags: plugins, wordpress, shortcode, category, thumbnail, image
+Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 Requires at least: 3.0
 Tested up to: 3.2.1
 Stable tag: trunk
