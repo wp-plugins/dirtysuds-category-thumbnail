@@ -6,6 +6,7 @@ Description: Adds shortcode to embed a category thumbnail image link
 Author: Dirty Suds
 Version: 1.00.20110226
 Author URI: http://blog.dirtysuds.com
+License: GPL2
 
 Updates:
 1.00.20110226 - First Version
