@@ -4,7 +4,7 @@ Donate link: http://www.pathawks.com/p/wordpress-plugins.html
 Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 Requires at least: 2.9
 Tested up to: 3.5
-Stable tag: 1.00
+Stable tag: 1.01
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
