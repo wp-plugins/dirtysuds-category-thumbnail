@@ -3,8 +3,8 @@ Contributors: dirtysuds, pathawks
 Donate link: http://www.pathawks.com/p/wordpress-plugins.html
 Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: trunk
+Tested up to: 3.5
+Stable tag: 1.00
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
@@ -38,6 +38,10 @@ plugins@dirtysuds.com
 
 
 == Changelog ==
+
+= 1.01.20121202 =
+* Cleaned up code a bit
+* Now supports Jetpack Photon images
 
 = 1.00.20110226 =
 * First version

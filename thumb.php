@@ -4,7 +4,7 @@ Plugin Name: DirtySuds - Category Thumbnail
 Plugin URI: http://dirtysuds.com
 Description: Adds shortcode to embed a category thumbnail image link
 Author: Dirty Suds
-Version: 1.00.20110226
+Version: 1.01.20121202
 Author URI: http://blog.dirtysuds.com
 License: GPL2
 
@@ -42,8 +42,7 @@ function dirtysuds_category_thumb( $atts ) {
 		if ($link == 'true') {
 			$embed = '<a href="'.get_category_link($id).'" title="'.get_cat_name($id).'">';
 		}
-		$imageid = get_post_thumbnail_id($post->ID);
-		$embed .= '<img src="'.wp_get_attachment_thumb_url($imageid).'" alt="'.get_the_title($imageid).'" />';
+		$embed .= get_the_post_thumbnail($post->ID,'thumbnail');
 		if ($link == 'true') {$embed .= '</a>';}
 	endforeach;
 	
