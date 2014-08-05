@@ -1,17 +1,14 @@
 <?php
 /*
-Plugin Name: DirtySuds - Category Thumbnail
-Plugin URI: http://dirtysuds.com
+Plugin Name: Category Thumbnail
+Plugin URI: https://github.com/pathawks/Category-Thumbnail
 Description: Adds shortcode to embed a category thumbnail image link
-Author: Dirty Suds
-Version: 1.01.20121202
-Author URI: http://blog.dirtysuds.com
+Author: Pat Hawks
+Author URI: http://pathawks.com
 License: GPL2
+Version: 1.01.20121202
 
-Updates:
-1.00.20110226 - First Version
-
-  Copyright 2011 Pat Hawks  (email : pat@pathawks.com)
+  Copyright 2014 Pat Hawks  (email : pat@pathawks.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -35,7 +32,7 @@ function dirtysuds_category_thumb( $atts ) {
 		'id' => 1,
 		'link' => 'true',
 	), $atts ) );
-	
+
 	$embed = '';
 	$posts = get_posts('cat='.$id.'&showposts=1&meta_key=_thumbnail_id');
 	foreach( $posts as $post ) : setup_postdata($post);
@@ -45,7 +42,7 @@ function dirtysuds_category_thumb( $atts ) {
 		$embed .= get_the_post_thumbnail($post->ID,'thumbnail');
 		if ($link == 'true') {$embed .= '</a>';}
 	endforeach;
-	
+
 	return $embed;
 }
 
