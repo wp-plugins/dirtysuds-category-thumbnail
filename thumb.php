@@ -5,7 +5,8 @@ Plugin URI: https://github.com/pathawks/Category-Thumbnail
 Description: Adds shortcode to embed a category thumbnail image link
 Author: Pat Hawks
 Author URI: http://pathawks.com
-License: GPL2
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.01.20121202
 
   Copyright 2014 Pat Hawks  (email : pat@pathawks.com)
