@@ -6,7 +6,7 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 2.9
 Tested up to: 4.0
-Stable tag: 1.01
+Stable tag: 1.02
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
@@ -35,11 +35,14 @@ You just need to replace *CategoryID* with the id number of the category.
 
 = I have an idea for a great way to improve this plugin =
 
-Great! I'd love to hear from you.
-plugins@dirtysuds.com
+Please open a pull request on [Github](https://github.com/pathawks/Category-Thumbnail)
 
 
 == Changelog ==
+
+= 1.02 20121011 =
+* Cleaned up code a bit
+* Make use of transients
 
 = 1.01.20121202 =
 * Cleaned up code a bit
