@@ -36,7 +36,7 @@ function dirtysuds_category_thumb( $atts ) {
 
 	$embed = '';
 	$posts = get_posts('cat='.$id.'&showposts=1&meta_key=_thumbnail_id');
-	foreach( $posts as $post ) : setup_postdata($post);
+	foreach( $posts as $post ) :
 		if ($link == 'true') {
 			$embed = '<a href="'.get_category_link($id).'" title="'.get_cat_name($id).'">';
 		}
