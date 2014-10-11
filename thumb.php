@@ -34,6 +34,9 @@ function dirtysuds_category_thumb( $atts ) {
 		'link' => 'true',
 	), $atts ) );
 
+	$embed = get_transient( $id . $link );
+	if( $embed ) return $embed;
+
 	$embed = '';
 	$posts = get_posts('cat='.$id.'&showposts=1&meta_key=_thumbnail_id');
 	if( $posts[0] ) {
@@ -42,6 +45,7 @@ function dirtysuds_category_thumb( $atts ) {
 			$embed = '<a href="'.get_category_link($id).'" title="'.get_cat_name($id).'">' . $embed . '</a>';
 		}
 	}
+	set_transient( $id . $link, $embed, 5 * MINUTE_IN_SECONDS );
 
 	return $embed;
 }
