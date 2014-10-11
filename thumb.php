@@ -36,13 +36,12 @@ function dirtysuds_category_thumb( $atts ) {
 
 	$embed = '';
 	$posts = get_posts('cat='.$id.'&showposts=1&meta_key=_thumbnail_id');
-	foreach( $posts as $post ) :
+	if( $posts[0] ) {
+		$embed = get_the_post_thumbnail($posts[0]->ID,'thumbnail');
 		if ($link == 'true') {
-			$embed = '<a href="'.get_category_link($id).'" title="'.get_cat_name($id).'">';
+			$embed = '<a href="'.get_category_link($id).'" title="'.get_cat_name($id).'">' . $embed . '</a>';
 		}
-		$embed .= get_the_post_thumbnail($post->ID,'thumbnail');
-		if ($link == 'true') {$embed .= '</a>';}
-	endforeach;
+	}
 
 	return $embed;
 }
