@@ -6,7 +6,7 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 1.02
+Stable tag: 1.03
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
@@ -39,6 +39,9 @@ Please open a pull request on [Github](https://github.com/pathawks/Category-Thum
 
 
 == Changelog ==
+
+= 1.03 20121011 =
+* Bugfix
 
 = 1.02 20121011 =
 * Cleaned up code a bit
