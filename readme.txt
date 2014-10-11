@@ -4,7 +4,7 @@ Donate link: https://github.com/pathawks/Category-Thumbnail
 Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Requires at least: 2.9
+Requires at least: 3.5
 Tested up to: 4.0
 Stable tag: 1.02
 
