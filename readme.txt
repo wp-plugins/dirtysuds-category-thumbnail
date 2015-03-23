@@ -5,14 +5,16 @@ Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 1.03
+Tested up to: 4.2
+Stable tag: 1.4.0
 
 Adds shortcode `[catthumb]` to embed a thumbnail image for a category.
 
 == Description ==
 
 `[catthumb id="CategoryID" link="true"]` will find the most recent post in the specified Category with a featured image and return the thumbnail for that image. If *link="true"* is specified, the image will link to the category specified.
+
+You can optionally search custom post types with the `post_type` attribute, and specify the thumbnail size with the `size` attribute. IE `[catthumb id="CategoryID" link="true" post_type="restaurants" size="full"]`
 
 The plugin will only search *featured images*, not *attached images*. It will not look for images embedded in the post itself, or other attached images. If a category does not have any posts with featured images, this plugin will not return a thumbnail image, even if the category has posts with attached images.
 
@@ -39,6 +41,10 @@ Please open a pull request on [Github](https://github.com/pathawks/Category-Thum
 
 
 == Changelog ==
+
+= 1.4.0 20150323 =
+* Allow custom image sizes
+* Allow custom post types
 
 = 1.03 20121011 =
 * Bugfix
