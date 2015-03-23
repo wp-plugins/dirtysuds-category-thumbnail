@@ -46,10 +46,10 @@ Please open a pull request on [Github](https://github.com/pathawks/Category-Thum
 * Allow custom image sizes
 * Allow custom post types
 
-= 1.03 20121011 =
+= 1.03 20141011 =
 * Bugfix
 
-= 1.02 20121011 =
+= 1.02 20141011 =
 * Cleaned up code a bit
 * Make use of transients
 
