@@ -1,5 +1,5 @@
 === Category Thumbnail ===
-Contributors: dirtysuds, pathawks
+Contributors: pathawks, CAYdenberg
 Donate link: https://github.com/pathawks/Category-Thumbnail
 Tags: WordPress,Post,plugin,posts,images,image,shortcode,thumbnail,category
 License: GPLv2
