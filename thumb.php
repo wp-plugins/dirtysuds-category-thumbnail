@@ -9,7 +9,7 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Version: 1.4.0
 
-  Copyright 2014 Pat Hawks  (email : pat@pathawks.com)
+  Copyright 2015 Pat Hawks  (email : pat@pathawks.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
