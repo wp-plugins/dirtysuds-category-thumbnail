@@ -40,7 +40,12 @@ function dirtysuds_category_thumb( $atts ) {
 	if( $embed ) return $embed;
 
 	$embed = '';
-	$posts = get_posts('cat='.$id.'&post_type='.$post_type.'&showposts=1&meta_key=_thumbnail_id');
+	$q = $wpdb->prepare(
+	    'cat=%s&post_type=%s&showposts=1&meta_key=_thumbnail_id',
+	    $id,
+		$post_type
+	);
+	$posts = get_posts( $q );
 	if( isset( $posts[0] ) ) {
 		$embed = get_the_post_thumbnail($posts[0]->ID, $size);
 		if ($link == 'true') {
