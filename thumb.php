@@ -7,7 +7,7 @@ Author: Pat Hawks
 Author URI: http://pathawks.com
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.4.0
+Version: 1.5.0
 
   Copyright 2015 Pat Hawks  (email : pat@pathawks.com)
 
@@ -40,6 +40,8 @@ function dirtysuds_category_thumb( $atts ) {
 	if( $embed ) return $embed;
 
 	$embed = '';
+
+	global $wpdb;
 	$q = $wpdb->prepare(
 	    'cat=%s&post_type=%s&showposts=1&meta_key=_thumbnail_id',
 	    $id,
